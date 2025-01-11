@@ -12,60 +12,17 @@ Original file is located at
 
 import pandas as pd
 from io import StringIO
-
+import io
+import requests
 import json
 from io import FileIO
 from json import loads, dumps
-from pydrive2.auth import GoogleAuth
-from pydrive2.drive import GoogleDrive
-
-from google.colab import drive
-from google.colab import auth
-from oauth2client.client import GoogleCredentials
-
 # import csv
-from os import system, name
-from decimal import Decimal, InvalidOperation
-from time import sleep
 import matplotlib.pyplot as plt
 
-
-
-# %matplotlib inline
-# ---------------- CODE ----------------------------------------
-
-# Authenticate and create the PyDrive client.
-# This part is crucial for accessing files in your Google Drive
-auth.authenticate_user()
-gauth = GoogleAuth()
-gauth.credentials = GoogleCredentials.get_application_default()
-drive = GoogleDrive(gauth)
-
-fName= 'CarData.csv'
-folderId = '1kbZYoC9zuRZq1-yDbJRKgPy-EqSQQFwR'
-
-# pd.options.mode.copy_on_write = True
-
-def read_file( id_file ) :
-      # file_list = drive.ListFile({'q': "title='MyAiFile.txt' and trashed=false"}).GetList()
-      title = "title='" + id_file + "' and trashed=false"
-      print ('File reading: ', title)
-
-      # #Get the file from the list as per API Spec
-      file_list = drive.ListFile({'q': title}).GetList()
-
-      if len(file_list) > 0:
-          file = file_list[0]
-          file_content = file.GetContentString()
-
-          return file_content
-      else:
-        print("File : ", id_file , " not found")
-
-# ---- Code starts -------------
-records = read_file(fName)
-df = pd.read_csv(StringIO(records))
-df
+url = "https://raw.githubusercontent.com/Rimbik/ai-nextGen/refs/heads/main/linear_regression/CarData.csv"
+s = requests.get(url).content
+df = pd.read_csv(io.StringIO(s.decode('utf-8')))
 
 plt.scatter(df['Milege'],df['SellPrice'])
 
