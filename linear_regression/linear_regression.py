@@ -24,6 +24,8 @@ url = "https://raw.githubusercontent.com/Rimbik/ai-nextGen/refs/heads/main/linea
 s = requests.get(url).content
 df = pd.read_csv(io.StringIO(s.decode('utf-8')))
 
+df
+
 plt.scatter(df['Milege'],df['SellPrice'])
 
 plt.scatter(df['Age(yrs)'],df['SellPrice'])
