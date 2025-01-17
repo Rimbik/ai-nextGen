@@ -233,6 +233,27 @@ image_caption_train_model.compile(
 
 # Commented out IPython magic to ensure Python compatibility.
 # #---------Next: Training Loop
-# %%time
-# history = image_caption_train_model.fit(batched_ds, epochs=1)
-#
+%%time
+history = image_caption_train_model.fit(batched_ds, epochs=1)
+
+# Load the Saved model
+model_save_path = 'image_caption_model.keras'
+model_save_path
+files.download(model_save_path) #this will download the model to your local disk
+#Upload this model to google drive
+
+# Step 1: Mount Google Drive (Assuming the model has been uploaed manually to the google drive)
+from google.colab import drive
+drive.mount('/content/drive/', force_remount=True)
+
+# Step 2: Set up the path to your model
+model_path = 'image_caption_model.keras'
+
+# Step 3: Load the Keras model
+import tensorflow as tf
+
+# Load the model
+model = tf.keras.models.load_model(model_path)
+
+# Verify the model
+model.summary()
