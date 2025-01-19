@@ -20,6 +20,7 @@ from json import loads, dumps
 # import csv
 import matplotlib.pyplot as plt
 
+# DataSet : https://github.com/Rimbik/ai-nextGen/blob/main/linear_regression/sample_dataset/realestate_ds.csv
 url = "https://raw.githubusercontent.com/Rimbik/ai-nextGen/refs/heads/main/linear_regression/sample_dataset/realestate_ds.csv"
 s = requests.get(url).content
 df = pd.read_csv(io.StringIO(s.decode('utf-8')))
