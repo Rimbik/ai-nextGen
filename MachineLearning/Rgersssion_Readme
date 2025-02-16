@@ -1,0 +1,44 @@
+1: Linear Regression
+2: Polynomial Regression
+3: Ridge Regression 
+        (also known as Regularization)
+        Advantages:
+                - Reduce overfit problem
+                - decreases multcoloniarity
+                - minimizes variance of the model without increasing bias
+                - Involves loss function using (RSS): RSS = Diff between actual and predicted values
+
+
+4: Lasso Regression
+         Advantages:
+                Performs same as Ridge Regression but with diff algo
+                mostly Used in healthcare industry
+                
+      
+        
+    Key Differences:
+    Polynomian Regression vs Lasso/Ridge Regression
+    ------------------------------------------------
+
+    Model Type:
+        Polynomial Regression fits a polynomial function (non-linear) to the data.
+        Lasso Regression is a linear regression model with regularization to prevent overfitting.
+
+    Regularization:
+        Polynomial Regression does not include regularization by default, so it can easily overfit if the degree of the polynomial is too high.
+        Lasso Regression includes L1 regularization to penalize large coefficients, which can result in feature selection and reduced model complexity.
+
+    Use Cases:
+        Polynomial Regression is useful when the data has a non-linear relationship with the target variable.
+        Lasso Regression is useful when you need to regularize a linear model to prevent overfitting and perform feature selection.
+
+    Interpretability:
+        Polynomial Regression may be more difficult to interpret if the degree of the polynomial is high.
+        Lasso Regression tends to result in sparse solutions, which can make the model more interpretable by zeroing out irrelevant features.
+
+Conclusion:
+
+If your data shows a non-linear relationship, polynomial regression can be a good choice. 
+However, if you have many features and want to avoid overfitting or reduce the number of features, Lasso regression would be more appropriate.
+
+Would you like to see how both can be applied to a specific dataset?
