@@ -1,0 +1,45 @@
+
+Deep Learning
+==================================
+Optimaztion Algo:
+1: SGD      and code
+2: Momentum and code
+3: Adgarad  and code
+    - Adafactor
+    - Nadam
+    - Lamb
+    - 
+4: Adadelta and code
+5: RMSProp  and code
+6: Adam     and code
+        Code:
+            ------------------------ Code ------------------------------------------------------------
+            # Syntax: tf.keras.optimizers.<algoName>(learning_rate=0.001) 
+                                                # learning_rate:
+                                                # controls how much to change the model in response to the estimated error 
+                   
+            # optimizerAlgo = tf.keras.optimizers.Adam(learning_rate=0.001) #loss apprx:37%
+            # optimizerAlgo = tf.keras.optimizers.SGD(learning_rate=0.001)    #loss apprx:58%
+            ptimizerAlgo = tf.keras.optimizers.RMSprop(learning_rate=0.001)  #loss apprx:
+
+            model.compile(optimizer=optimizerAlgo, loss='binary_crossentropy', metrics=['accuracy'])
+            r = model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=200)  # more epochs > reduces the losses
+            -------------------------------------------------------------------------------------------
+
+> Batch Normalization
+> Hyperparameter tuning
+> Model interpretability
+> Dropout and Early stopping
+    > Droput and code
+----------------------------------
+ 
+
+Example: 
+    case-1: tf.keras.optimizers.adam(learning_rate=0.001) # loss 43% > doing false prediction
+    case-2: tf.keras.optimizers.adam(learning_rate=0.040) # loss 37% > doing 1/3 correct prediction
+    case-3: tf.keras.optimizers.adam(learning_rate=1.040) # loss 70% > doing false prediction
+
+    It has been observed that 'adam' with tuned learning_rate : giving best result out of all algos (apprx 13 algos)
+
+    
+
