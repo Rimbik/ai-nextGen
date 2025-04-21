@@ -1,0 +1,35 @@
+llama run locally: (Llama by Meta/Facebook)
+===========================================
+https://www.llama.com/llama-downloads/
+https://github.com/meta-llama/llama-models/blob/main/README.md
+https://github.com/meta-llama/llama-models/tree/main
+
+https://www.llama.com/llama-downloads/
+Request ID: 2080380399109728
+Requested models: Llama 4 Scout
+    │ Llama-4-Scout-17B-16E
+-------------------------------------
+Infra Setup:
+
+    pip install llama-stack
+    pip install llama-stack -U
+    llama model list
+
+Compile the model:
+    llama model download --source meta --model-id Llama-4-Scout-17B-16E
+
+
+    Running the Model:
+    https://github.com/meta-llama/llama-models/blob/main/README.md
+    
+    https://medium.com/@karankakwani/build-and-run-llama2-llm-locally-a3b393c1570e
+
+==================================================================
+Request ID: 940378048027519
+Requested models:  Llama 2  
+                      | Llama-2-7b 
+
+------------
+Ref: https://github.com/cornelk/llama-go/blob/go/convert-pth-to-ggml.py
+
+
