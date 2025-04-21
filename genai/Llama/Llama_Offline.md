@@ -45,7 +45,8 @@ Some References:
 
 Running Steps 1 by 1:
 
-Step 1: Watch the video @ ''
+Step 1: Watch the video @
+    https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71
 
 Step 2: clone the llma.cpp project using the following command
     
@@ -87,12 +88,37 @@ Step 4: download the llama model from lama website (legal)
 
     Note: This is 13GB model and once done, it will be saved in your local PC '/home/' directory. For me it is '', also can be found in shell as you are downloading
 
-    save/ytransfer the model to your desired folder in this case:
+ Step 5: Place the llama.model to project folder
+    save/transfer the model to your desired folder in this case:
         
         A) go to your cloned folder
         B) paste in your model folder
     
     By now you are all set to start processing.
+
+ Step 6: run the model
+    A) download the file and place in project root folder
+        - https://github.com/cornelk/llama-go/blob/go/convert-pth-to-ggml.py
+        [As seems this file is missing in initial cloned project of llama.cpp]
+        - you can ignore the step, if the file 'convert-pth-to-ggml.py' already exists
+
+    B) run the commands
+        
+        #install the required libs
+        '''shell    
+            sudo python3 -m pip install torch numpy sentencepiece
+        '''
+
+        #convert 7B model to ggml FP16 format (that reduces the 13GB model to 3GB)
+        '''shell
+        python3 convert-pth-to-ggml.py models/Llama-2-7b 1
+        '''
+                [The parameter is 0 or 1]
+
+        # quantize the model to 4-Bits
+        '''shell
+        python3 quantize.py 7b
+        '''
 
 
 
