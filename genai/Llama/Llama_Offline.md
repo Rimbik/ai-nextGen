@@ -150,6 +150,7 @@ python3 convert-pth-to-ggml.py models/Llama-2-7b 1
 python3 quantize.py 7b
 ```
 You’re 98% done! For the final steps, refer to the video tutorial again.
+[https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71](https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71)
 
 **Conclusion:**
 Since I have been crashed with my 2GB RAM in a celeron Laptop to run the model, spiining up a new system with Limux that has higher RAM. 
