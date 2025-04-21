@@ -1,5 +1,7 @@
 # Run llama offline in your PC
     llma is a (meta/facebook) gpt model equivalent to chat gpt 3
+    ![image](https://github.com/user-attachments/assets/b88b283b-fe32-408b-a6fb-fa81a04a2447)
+
 ---
 #### What you are going to have with this ?
     *Overview: 
