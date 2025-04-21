@@ -1,169 +1,162 @@
-# Run llama offline in your PC
-    llama is a (meta/facebook) gpt model equivalent to chat gpt 3
-    An open-source large language models (LLMs) developed by Meta AI
-    ![image](https://github.com/user-attachments/assets/e6a8a010-7931-449a-8f88-f395132a1de8)
+# Run LLaMA Offline on Your PC
 
----
-#### What we are going to have with this ?
-    **Overview**
-    Once you complete the process, you will be able to run llama model offline in your local PC. 
-    If you get success running all the steps mentioned here, you will be able to use a chatgpt kind 
-    of prompting system that runs in your local PC/Laptop.
-    
-    There are several **llama** models vailable in internet to download freely where some needs 2 GPU with 80GB RAM
-    and some similar hardware but there is also low end models that llama were published with that can run on 
-    local PC having no GPU with only 4GB of RAM.
-
-
-
-### Prerequistes:
-    # a Linux PC/Laptop
-    # decent RAM - minimum 4GB (as reported worked)
-    # a decent CPU (rasberiPi with 4GB works)
-
-    # basic c++ knowldge (not mandatory)
-    # linux machine very basic skill to run commands and install several packages using sudo apt-get and pip
+**LLaMA** is a GPT-equivalent model (developed by Meta/Facebook), part of the open-source large language models (LLMs) by Meta AI.
 
 ---
 
-## Lets Start
-This spec is influenced by a youtube link and all credit goes there. Therefore I would request you to first see the video to get some idea what is happening here. Link : 
+## 🤔 What Will You Get From This?
 
-Steps to folow sequentilly:
- - 1: Watch the youtube video to get the idea
- - 2: git clone the repo
- - 3: compile the project in Linux using make or cmake
- - 4: download the llama model that you want to run locally
- - 5: place the downloaded model in your cloned folder
- - 6: run few commands to make it running
+**Overview:**  
+Once you complete the setup, you’ll be able to run the LLaMA model offline on your local PC. You'll effectively have a ChatGPT-style prompting system running locally.
 
+There are various **LLaMA** models available online. Some require high-end hardware (like dual GPUs with 80GB RAM), but there are also lighter models that can run on machines with no GPU and only 4GB RAM.
 
-----
-Some References:
-- llama model download path: 
-        - https://www.llama.com/llama-downloads/
+---
 
-- additional file:
-        - source code to clone :        
-        - other files: https://github.com/cornelk/llama-go/blob/go/convert-pth-to-ggml.py
+## 🧰 Prerequisites
 
------
+- A Linux PC/Laptop  
+- Minimum 4GB RAM (Reported to work)  
+- A decent CPU (Even Raspberry Pi with 4GB has been reported to work)  
+- Basic C++ knowledge (Optional)  
+- Basic Linux skills (Installing packages, running commands)
 
-Running Steps 1 by 1:
+---
 
-Step 1: Watch the video @
-    https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71
+## 🚀 Let's Start
 
-Step 2: clone the llama.cpp project using the following command
-        Source: https://github.com/ggml-org/llama.cpp
-   
-     md llama
-     cd llama
-     git clone https://github.com/ggml-org/llama.cpp
-     ls
+> ⚠️ This setup is influenced by a YouTube tutorial. Please watch the video first to get a sense of the overall process:  
+> [YouTube Link](https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71)
 
-    now cd into the folder after complete cloning: (do not download from git, do clone only)
+### Step-by-Step Instructions:
 
-    james@james-bond:~/Other_Drive/AI_ML/gen_ai/LlaMa/lma/llama.cpp$
+1. **Watch the YouTube video.**
+2. **Clone the repository.**
+3. **Compile the project using `make` or `cmake`.**
+4. **Download the LLaMA model.**
+5. **Place the model in your cloned folder.**
+6. **Run commands to get it working.**
 
-Step 3: Compile the project
+---
 
-    the video tutorial says use 'make' - make is a linux command that builds your project and in this case it is .cpp files. 
-    But you might facse challeges here and may be you run then 'cmake'.
-    This part for any complecation we will discuss later but lets assume you are able to buld the project using make or cmake linux command
+## 📚 References
 
-    - you mught need installing lots of linux packages as it will suggest if any compile error in the make or cmake command. So just follow the shell 
+- **LLaMA model downloads:**  
+  [https://www.llama.com/llama-downloads/](https://www.llama.com/llama-downloads/)
 
-    [For many - it can be the hardest part to buidl the llama.cpp folder as it needs some C++ knowldge as how a c++ project compiles]. 
-    For me this steps became the hardest Step among all mentioned steps. 
-        So best of luck!
+- **Source code repo to clone:**  
+  [https://github.com/ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
 
-    **"You are building a cpp (c++) project folder"** in linux with source code opened.
+- **Additional scripts:**  
+  [convert-pth-to-ggml.py](https://github.com/cornelk/llama-go/blob/go/convert-pth-to-ggml.py)
 
-    - If you are stuck for hrs with bad luck - move to step:4 (we still can do that later).     
-      Consult me for any build issue in Linux.
+---
 
-Step 4: download the llama model from lama website (legal)
+## 🧑‍💻 Running Steps in Detail
 
-    https://www.llama.com/llama-downloads/
-    
-    [after vitiing the site, do the registration process as instructed]
-    Fill the form and select your model to download.
+### Step 1: Watch the Video
 
-    There are no of models and that are on top - they use heavy GPU that we do not have, so scroll down and find the "Previous language & safety models" to find       the low end model that is "Llama 2" . This Llama-2 model we should be able to run locally in our local PC without any GPU.
+Watch this YouTube video to get started:  
+[https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71](https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71)
 
-    ![llama2_model](https://github.com/user-attachments/assets/d528499a-d3de-4139-9cf1-1dd5a816a4e1)
-      
+---
 
-    Follow the instruction given in the web site to complete the download.
+### Step 2: Clone the Repository
 
-    Note: This is 13GB model and once done, it will be saved in your local PC '/home/' directory. For me it is '', also can be found in shell as you are downloading
+```bash
+mkdir llama
+cd llama
+git clone https://github.com/ggml-org/llama.cpp
+cd llama.cpp
+```
 
- Step 5: Place the llama.model to project folder
-    save/transfer the model to your desired folder in this case:
-        
-        A) go to your cloned folder
-        B) paste in your model folder
-    
-    By now you are all set to start processing.
+Make sure you use `git clone` (not downloading the ZIP).
 
-        Some commands to check what all **llama** model actually exists in public
-        run the command in shell
-            '''shell
-            llama model show
-            '''
-            ![some of Llama public Models](images/llamaModelsAll.png)
+---
 
- Step 6: run the model
-    A) download the file and place in project root folder
-        - https://github.com/cornelk/llama-go/blob/go/convert-pth-to-ggml.py
-        [As seems this file is missing in initial cloned project of llama.cpp]
-        - you can ignore the step, if the file 'convert-pth-to-ggml.py' already exists
+### Step 3: Compile the Project
 
-    B) run the commands
-        
-        #install the required libs
-            sudo python3 -m pip install torch numpy sentencepiece
+Use:
 
-        #convert 7B model to ggml FP16 format (that reduces the 13GB model to 3GB)
-            python3 convert-pth-to-ggml.py models/Llama-2-7b 1
+```bash
+make
+```
 
-            [The parameter is 0 or 1] *** be mindfull of the folder name being used/downloaded
+If `make` fails, try:
 
-        **This is the area of heavy load and you will possibly be crashed due to low PC hardware**. I am running a on a Laptop 'Acer Celeron Processor with 2GB RAM' to crash as 
-![crashed_on_convert](https://github.com/user-attachments/assets/59dbd00a-b96c-4736-b242-9de17324fd94)
+```bash
+cmake .
+make
+```
 
+> ⚠️ You might face errors during compilation due to missing packages. Install the suggested dependencies using `sudo apt-get` or `pip`.  
+> This step can be the hardest due to C++ build issues. Don't worry—just ask for help if you get stuck!
 
+---
 
-        # quantize the model to 4-Bits
-            python3 quantize.py 7b
-    
+### Step 4: Download the LLaMA Model
 
-        Here you are just 2% behind the run.
+- Visit: [https://www.llama.com/llama-downloads/](https://www.llama.com/llama-downloads/)
+- Register, fill out the form, and download a model.
+- Scroll to **"Previous Language & Safety Models"** to get the low-end "LLaMA 2" model that runs on basic hardware.
+- The model is ~13GB in size and is usually saved in your `/home/` directory.
 
-        For rest of the steps:
-        Please follow the youtube link https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71
-          as am at this stage spinning up a new linux system/PC to re-attempt (after my old PC not adequate to handle it).
-        
-        Best Of Luck !
-----
+> ![LLaMA 2 Model](images/llama2_model.png)
 
-## Some usefull ref:
+---
 
-https://github.com/meta-llama/llama-models/blob/main/README.md
+### Step 5: Move Model to Project Folder
 
-llama.ccp project (main): 
-https://github.com/ggml-org/llama.cpp
+1. Go to your cloned project directory.
+2. Paste the downloaded model into the `models/` folder.
 
-https://github.com/ggml-org/llama.cpp/blob/master/README.md
+To check available public models:
 
-https://github.com/meta-llama/llama-models/tree/main
-Lama Model 7b: 
-![llama2_model](https://github.com/user-attachments/assets/5e78532f-8754-40e6-b709-b0e659fc1a12)
-Lama All Models: 
-![llamaModelsAll](https://github.com/user-attachments/assets/388778b1-be71-46da-9d95-0e5ab38c63cd)
-A model being downloaded:
-![Screenshot at 2025-04-20 23-15-57](https://github.com/user-attachments/assets/cee302af-7b8f-494d-8704-9120dda7dd72)
+```bash
+llama model show
+```
 
+> ![LLaMA Models](images/llamaModelsAll.png)
 
- 
+---
+
+### Step 6: Run the Model
+
+1. Download and place the required script in your project root:
+
+   [convert-pth-to-ggml.py](https://github.com/cornelk/llama-go/blob/go/convert-pth-to-ggml.py)
+
+2. Install dependencies:
+
+```bash
+sudo python3 -m pip install torch numpy sentencepiece
+```
+
+3. Convert the 7B model to GGML FP16 format:
+
+```bash
+python3 convert-pth-to-ggml.py models/Llama-2-7b 1
+```
+
+- Use `0` or `1` as the second argument based on the model.
+- Ensure correct folder names.
+
+> ⚠️ This step may crash on low-end hardware. If using a machine with 2GB RAM (e.g., Acer Celeron), it may not complete.
+
+> ![Crash Example](images/crashed_on_convert.png)
+
+4. Quantize the model to 4-bit:
+
+```bash
+python3 quantize.py 7b
+```
+
+You’re 98% done! For the final steps, refer to the video tutorial again.
+
+---
+
+## ✅ Additional Resources
+
+- [Meta's LLaMA GitHub](https://github.com/meta-llama/llama-models/blob/main/README.md)
+- [LLaMA.cpp main repo](https://github.com/ggml-org/llama.cpp)
+- [LLaMA.cpp README](https://github.com/ggml-org/llama.cpp/blob/master/README.md)
