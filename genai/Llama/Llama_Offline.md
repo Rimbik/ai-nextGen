@@ -142,7 +142,7 @@ python3 convert-pth-to-ggml.py models/Llama-2-7b 1
 
 > ⚠️ This step may crash on low-end hardware. If using a machine with 2GB RAM (e.g., Acer Celeron), it may not complete.
 
-> ![Crash Example](images/crashed_on_convert.png)
+> ![crashed_on_convert](https://github.com/user-attachments/assets/27be86b5-6a4c-45ff-90ed-11e8c349e572)
 
 4. Quantize the model to 4-bit:
 
