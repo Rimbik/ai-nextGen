@@ -1,7 +1,9 @@
 # Run llama offline in your PC
-    llma is a (meta/facebook) gpt model equivalent to chat gpt 3
+    llama is a (meta/facebook) gpt model equivalent to chat gpt 3
+
+    An open-source large language models (LLMs) developed by Meta AI
 ---
-#### What you are going to have with this ?
+#### What we are going to have with this ?
     *Overview: 
     Once you complete the process, you will be able to run lama model offline in your local PC. If you get success running all the steps mentioned here, you will be able to use a chatgpt kind of prompting system that runs in your local PC/Laptop.
     
@@ -99,6 +101,13 @@ Step 4: download the llama model from lama website (legal)
     
     By now you are all set to start processing.
 
+        Some commands to check what all llma model actually exists in public
+        run the command in shell
+            '''shell
+            llama model show
+            '''
+            ![some of Llama public Models](images/llamaModelsAll.png)
+
  Step 6: run the model
     A) download the file and place in project root folder
         - https://github.com/cornelk/llama-go/blob/go/convert-pth-to-ggml.py
@@ -140,6 +149,7 @@ llama.ccp project (main):
 https://github.com/ggml-org/llama.cpp
 
 https://github.com/ggml-org/llama.cpp/blob/master/README.md
+
 https://github.com/meta-llama/llama-models/tree/main
 
 
