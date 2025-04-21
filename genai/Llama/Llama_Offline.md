@@ -60,7 +60,7 @@ Watch this YouTube video to get started:
 [https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71](https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71)
 
 ---
-
+Start making your hand dirty ..
 ### Step 2: Clone the Repository
 
 ```bash
@@ -74,6 +74,7 @@ Make sure you use `git clone` (not downloading the ZIP).
 
 ---
 
+the everest camp 3
 ### Step 3: Compile the Project
 
 Use:
