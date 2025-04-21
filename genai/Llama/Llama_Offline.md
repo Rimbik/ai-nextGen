@@ -8,7 +8,7 @@
     If you get success running all the steps mentioned here, you will be able to use a chatgpt kind 
     of prompting system that runs in your local PC/Laptop.
     
-    There are several llma models vailable in internet to download freely where some needs 2 GPU with 80GB RAM
+    There are several **llama** models vailable in internet to download freely where some needs 2 GPU with 80GB RAM
     and some similar hardware but there is also low end models that llama were published with that can run on 
     local PC having no GPU with only 4GB of RAM.
 
@@ -52,7 +52,7 @@ Running Steps 1 by 1:
 Step 1: Watch the video @
     https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71
 
-Step 2: clone the llma.cpp project using the following command
+Step 2: clone the llama.cpp project using the following command
 
 Source: https://github.com/ggml-org/llama.cpp
 
@@ -103,7 +103,7 @@ Step 4: download the llama model from lama website (legal)
     
     By now you are all set to start processing.
 
-        Some commands to check what all llma model actually exists in public
+        Some commands to check what all **llama** model actually exists in public
         run the command in shell
             '''shell
             llama model show
