@@ -65,15 +65,16 @@ Step 2: clone the llama.cpp project using the following command
     james@james-bond:~/Other_Drive/AI_ML/gen_ai/LlaMa/lma/llama.cpp$
 
 Step 3: Compile the project
-        the video tutorial says use 'make' - make is a linux command that builds your project and in this case it is .cpp files. 
-        But you might facse challeges here and may be you run then 'cmake'.
-        This part for any complecation we will discuss later but lets assume you are able to buld the project using make or cmake linux command
 
-            - you mught need installing lots of linux packages as it will suggest if any compile error in the make or cmake command. So just follow the shell 
+    the video tutorial says use 'make' - make is a linux command that builds your project and in this case it is .cpp files. 
+    But you might facse challeges here and may be you run then 'cmake'.
+    This part for any complecation we will discuss later but lets assume you are able to buld the project using make or cmake linux command
+
+    - you mught need installing lots of linux packages as it will suggest if any compile error in the make or cmake command. So just follow the shell 
 
     [For many - it can be the hardest part to buidl the llama.cpp folder as it needs some C++ knowldge as how a c++ project compiles]. 
     For me this steps became the hardest Step among all mentioned steps. 
-    So best of luck!
+        So best of luck!
 
     **"You are building a cpp (c++) project folder"** in linux with source code opened.
 
@@ -87,7 +88,7 @@ Step 4: download the llama model from lama website (legal)
     [after vitiing the site, do the registration process as instructed]
     Fill the form and select your model to download.
 
-    There are no of models and that are on top - they use heavy GPU that we do not have, so scroll down and find the "Previous language & safety models" to find the low end model that is "Llama 2" . This Llama-2 model we should be able to run locally in our local PC without any GPU.
+    There are no of models and that are on top - they use heavy GPU that we do not have, so scroll down and find the "Previous language & safety models" to find       the low end model that is "Llama 2" . This Llama-2 model we should be able to run locally in our local PC without any GPU.
 
     ![Lama 2 Model](images/llama2_model.png)
         
