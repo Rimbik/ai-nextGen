@@ -9,7 +9,8 @@ see# Run LLaMA Offline on Your PC
 **Overview:**  
 Once you complete the setup, you’ll be able to run the LLaMA model offline on your local PC. You'll effectively have a ChatGPT-style prompting system running locally.
 
-There are various **LLaMA** models available online. Some require high-end hardware (like dual GPUs with 80GB RAM), but there are also lighter models that can run on machines with no GPU and only 4GB RAM.
+There are various **LLaMA** models available online. Some require high-end hardware (like dual GPUs with 80GB RAM) like 'Llama Scout' but there are also lighter models that can run on machines with no GPU and only 4GB RAM.
+like 'Lama 2' / 7b
 
 ---
 
