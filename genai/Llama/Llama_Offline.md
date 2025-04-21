@@ -1,5 +1,9 @@
 ## Run LLaMA Offline on Your PC
 
+![LLaMA Header](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Llama_lying_down.jpg/640px-Llama_lying_down.jpg)
+
+## Run LLaMA Offline on Your PC
+
 **LLaMA** 
 is a GPT-equivalent model (developed by Meta/Facebook), part of the open-source large language models (LLMs) by Meta AI.
 
