@@ -1,6 +1,8 @@
 # Run llama offline in your PC
     llama is a (meta/facebook) gpt model equivalent to chat gpt 3
     An open-source large language models (LLMs) developed by Meta AI
+    ![image](https://github.com/user-attachments/assets/e6a8a010-7931-449a-8f88-f395132a1de8)
+
 ---
 #### What we are going to have with this ?
     **Overview**
@@ -160,6 +162,8 @@ Lama Model 7b:
 ![llama2_model](https://github.com/user-attachments/assets/5e78532f-8754-40e6-b709-b0e659fc1a12)
 Lama All Models: 
 ![llamaModelsAll](https://github.com/user-attachments/assets/388778b1-be71-46da-9d95-0e5ab38c63cd)
+A model being downloaded:
+![Screenshot at 2025-04-20 23-15-57](https://github.com/user-attachments/assets/cee302af-7b8f-494d-8704-9120dda7dd72)
 
 
  
