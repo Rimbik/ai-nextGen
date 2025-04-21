@@ -25,7 +25,7 @@
 ---
 
 ## Lets Start
-This spec is influenced by a youtube link and all credit goes there. Therefire I would request you to first see the video to get some idea what is happening here. Link : 
+This spec is influenced by a youtube link and all credit goes there. Therefore I would request you to first see the video to get some idea what is happening here. Link : 
 
 Steps to folow sequentilly:
  - 1: Watch the youtube video to get the idea
