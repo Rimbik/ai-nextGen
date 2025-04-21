@@ -59,7 +59,7 @@ Source: https://github.com/ggml-org/llama.cpp
     
      md llama
      cd llama
-     git clone 
+     git clone https://github.com/ggml-org/llama.cpp
      ls
 
     now cd into the folder after complete cloning: (do not download from git, do clone only)
