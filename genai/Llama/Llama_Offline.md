@@ -129,7 +129,7 @@ Step 4: download the llama model from lama website (legal)
             [The parameter is 0 or 1] *** be mindfull of the folder name being used/downloaded
 
         **This is the area of heavy load and you will possibly be crashed due to low PC hardware**. I am running a on a Laptop 'Acer Celeron Processor with 2GB RAM' to crash as 
-        ![Lama 2 Model](images/crashed_on_convert.png)
+        ![crashed_on_convert](https://github.com/user-attachments/assets/5a868afe-2e34-4c91-90fb-3ef406382778)
 
 
         # quantize the model to 4-Bits
@@ -156,7 +156,7 @@ https://github.com/ggml-org/llama.cpp/blob/master/README.md
 
 https://github.com/meta-llama/llama-models/tree/main
 
-![crashed_on_convert](https://github.com/user-attachments/assets/5a868afe-2e34-4c91-90fb-3ef406382778)
+
 
 
 
