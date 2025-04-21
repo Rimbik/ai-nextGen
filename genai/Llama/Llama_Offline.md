@@ -76,7 +76,7 @@ Make sure you use `git clone` (not downloading the ZIP).
 
 the everest camp 3
 ### Step 3: Compile the Project
-
+(am in linux mint)
 Use:
 
 ```bash
