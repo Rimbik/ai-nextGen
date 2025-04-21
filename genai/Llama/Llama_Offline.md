@@ -53,10 +53,8 @@ Step 1: Watch the video @
     https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71
 
 Step 2: clone the llama.cpp project using the following command
-
-Source: https://github.com/ggml-org/llama.cpp
-
-    
+        Source: https://github.com/ggml-org/llama.cpp
+   
      md llama
      cd llama
      git clone https://github.com/ggml-org/llama.cpp
@@ -67,14 +65,17 @@ Source: https://github.com/ggml-org/llama.cpp
     james@james-bond:~/Other_Drive/AI_ML/gen_ai/LlaMa/lma/llama.cpp$
 
 Step 3: Compile the project
-        
-    the video tutorial says use 'make' - make is a linux command that builds your project and in this case it is .cpp files. But you might facse challeges here and may be you run then 'cmake'. This part for any complecation we will discuss later but lets assume you are able to buld the project using make or cmake linux command
+        the video tutorial says use 'make' - make is a linux command that builds your project and in this case it is .cpp files. 
+        But you might facse challeges here and may be you run then 'cmake'.
+        This part for any complecation we will discuss later but lets assume you are able to buld the project using make or cmake linux command
 
             - you mught need installing lots of linux packages as it will suggest if any compile error in the make or cmake command. So just follow the shell 
 
-    [For many - it can be the hardest part to buidl the llama.cpp folder as it needs some C++ knowldge as how a c++ project compiles]. For me this steps became the hardest Step among all mentioned steps. So best of luck!
+    [For many - it can be the hardest part to buidl the llama.cpp folder as it needs some C++ knowldge as how a c++ project compiles]. 
+    For me this steps became the hardest Step among all mentioned steps. 
+    So best of luck!
 
-    "You are building a cpp (c++) project folder" in linux with source code opened.
+    **"You are building a cpp (c++) project folder"** in linux with source code opened.
 
     - If you are stuck for hrs with bad luck - move to step:4 (we still can do that later).     
       Consult me for any build issue in Linux.
