@@ -1,7 +1,13 @@
 ## Run LLaMA Offline on Your PC
 
-**LLaMA** is a GPT-equivalent model (developed by Meta/Facebook), part of the open-source large language models (LLMs) by Meta AI.
+**LLaMA** 
+is a GPT-equivalent model (developed by Meta/Facebook), part of the open-source large language models (LLMs) by Meta AI.
 
+LlaMa Use Cases
+
+* Chatbots and conversational AI
+* Content generation and writing assistance
+* Language translation and understanding
 ---
 
 ## 🤔 What Will You Get From This?
