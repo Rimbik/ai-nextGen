@@ -4,7 +4,7 @@
 ---
 #### What we are going to have with this ?
     **Overview**
-    Once you complete the process, you will be able to run lama model offline in your local PC. 
+    Once you complete the process, you will be able to run llama model offline in your local PC. 
     If you get success running all the steps mentioned here, you will be able to use a chatgpt kind 
     of prompting system that runs in your local PC/Laptop.
     
