@@ -86,7 +86,6 @@ If `make` fails, try:
 
 ```bash
 cmake .
-make
 ```
 
 > ⚠️ You might face errors during compilation due to missing packages. Install the suggested dependencies using `sudo apt-get` or `pip`.  
