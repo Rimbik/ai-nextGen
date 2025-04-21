@@ -1,4 +1,4 @@
-# Run LLaMA Offline on Your PC
+see# Run LLaMA Offline on Your PC
 
 **LLaMA** is a GPT-equivalent model (developed by Meta/Facebook), part of the open-source large language models (LLMs) by Meta AI.
 
@@ -154,7 +154,7 @@ You’re 98% done! For the final steps, refer to the video tutorial again.
 [https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71](https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71)
 
 **Conclusion:**
-Since I have been crashed with my 2GB RAM in a celeron Laptop to run the model, spiining up a new system with Limux that has higher RAM. 
+Since I have been crashed with my 2GB RAM in a celeron Laptop to run the model, spinning up a new system with Limux that has higher RAM. 
 Untill then Best Of Luck!
 
 
