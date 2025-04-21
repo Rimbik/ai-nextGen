@@ -97,6 +97,7 @@ cmake .
 ### Step 4: Download the LLaMA Model
 
 - Visit: [https://www.llama.com/llama-downloads/](https://www.llama.com/llama-downloads/)
+- i was downloading a top end model that needs 600gb and runs on 80gb Nvidia cuda gpu. so feel free to make yourself donky.
 - Register, fill out the form, and download a model.
 - Scroll to **"Previous Language & Safety Models"** to get the low-end "LLaMA 2" model that runs on basic hardware.
 - The model is ~13GB in size and is usually saved in your `/home/` directory.
