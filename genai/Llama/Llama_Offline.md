@@ -156,6 +156,7 @@ https://github.com/ggml-org/llama.cpp/blob/master/README.md
 
 https://github.com/meta-llama/llama-models/tree/main
 
+![crashed_on_convert](https://github.com/user-attachments/assets/5a868afe-2e34-4c91-90fb-3ef406382778)
 
 
 
