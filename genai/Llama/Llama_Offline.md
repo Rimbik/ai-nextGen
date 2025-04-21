@@ -90,8 +90,8 @@ Step 4: download the llama model from lama website (legal)
 
     There are no of models and that are on top - they use heavy GPU that we do not have, so scroll down and find the "Previous language & safety models" to find       the low end model that is "Llama 2" . This Llama-2 model we should be able to run locally in our local PC without any GPU.
 
-    ![Lama 2 Model](images/llama2_model.png)
-        
+    ![llama2_model](https://github.com/user-attachments/assets/d528499a-d3de-4139-9cf1-1dd5a816a4e1)
+      
 
     Follow the instruction given in the web site to complete the download.
 
