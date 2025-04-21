@@ -76,14 +76,14 @@ Make sure you use `git clone` (not downloading the ZIP).
 
 the everest camp 3
 ### Step 3: Compile the Project
-(am in linux mint)
+command depends on linux flavour
 Use:
 
 ```bash
 make
 ```
 
-If `make` fails, try:
+If `make` fails, try: (am on linux mint)
 
 ```bash
 cmake .
