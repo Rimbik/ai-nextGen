@@ -11,7 +11,7 @@ Once you complete the setup, you’ll be able to run the LLaMA model offline on 
 
 There are various **LLaMA** models available online. Some require high-end hardware (like dual GPUs with 80GB RAM) like 'Llama Scout' but there are also lighter models that can run on machines with no GPU and only 4GB RAM.
 like 'Llama 2' / 7b.
-we will target this Llama 2 model, however if you have highend pc, you can try any model.
+we will target this Llama 2 model, however if you have highend pc, you can try any model with same instructions given here.
 
 ---
 
