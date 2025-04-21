@@ -156,34 +156,10 @@ https://github.com/ggml-org/llama.cpp
 https://github.com/ggml-org/llama.cpp/blob/master/README.md
 
 https://github.com/meta-llama/llama-models/tree/main
+Lama Model 7b: 
+![llama2_model](https://github.com/user-attachments/assets/5e78532f-8754-40e6-b709-b0e659fc1a12)
+Lama All Models: 
+![llamaModelsAll](https://github.com/user-attachments/assets/388778b1-be71-46da-9d95-0e5ab38c63cd)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
+ 
