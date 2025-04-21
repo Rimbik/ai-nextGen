@@ -49,6 +49,9 @@ Step 1: Watch the video @
     https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71
 
 Step 2: clone the llma.cpp project using the following command
+
+Source: https://github.com/ggml-org/llama.cpp
+
     
      md llama
      cd llama
@@ -105,20 +108,49 @@ Step 4: download the llama model from lama website (legal)
     B) run the commands
         
         #install the required libs
-        '''shell    
             sudo python3 -m pip install torch numpy sentencepiece
-        '''
 
         #convert 7B model to ggml FP16 format (that reduces the 13GB model to 3GB)
-        '''shell
-        python3 convert-pth-to-ggml.py models/Llama-2-7b 1
-        '''
-                [The parameter is 0 or 1]
+            python3 convert-pth-to-ggml.py models/Llama-2-7b 1
+
+            [The parameter is 0 or 1] *** be mindfull of the folder name being used/downloaded
+
+        **This is the area of heavy load and you will possibly be crashed due to low PC hardware**. I am running a on a Laptop 'Acer Celeron Processor with 2GB RAM' to crash as 
+        ![Lama 2 Model](images/crashed_on_convert.png)
+
 
         # quantize the model to 4-Bits
-        '''shell
-        python3 quantize.py 7b
-        '''
+            python3 quantize.py 7b
+    
+
+        Here you are just 2% behind the run.
+
+        For rest of the steps:
+        Please follow the youtube link https://www.youtube.com/watch?v=EgoHtsOgZhY&t=71
+          as am at this stage spinning up a new linux system/PC to re-attempt (after my old PC not adequate to handle it).
+        
+        Best Of Luck !
+----
+
+## Some usefull ref:
+
+https://github.com/meta-llama/llama-models/blob/main/README.md
+
+llama.ccp project (main): 
+https://github.com/ggml-org/llama.cpp
+
+https://github.com/ggml-org/llama.cpp/blob/master/README.md
+https://github.com/meta-llama/llama-models/tree/main
+
+
+
+
+
+
+
+
+
+
 
 
 
