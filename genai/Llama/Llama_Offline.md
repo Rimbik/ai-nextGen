@@ -125,6 +125,10 @@ To check available public models:
 ```bash
 llama model show
 ```
+```bash
+# Download the model [llama 7 b]
+llama model download --source meta --model-id  Llama-2-7b
+```
 
 > ![LLaMA Models](images/llamaModelsAll.png)
 
