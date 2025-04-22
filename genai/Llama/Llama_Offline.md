@@ -1,6 +1,3 @@
-## Run LLaMA Offline on Your PC
-
-![LLaMA Header](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Llama_lying_down.jpg/640px-Llama_lying_down.jpg)
 
 ## Run LLaMA Offline on Your PC
 
