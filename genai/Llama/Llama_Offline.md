@@ -27,7 +27,7 @@ we will target this Llama 2 model, however if you have highend pc, you can try a
 - A Linux PC/Laptop  
 - Minimum 4GB RAM (Reported to work)  
 - A decent CPU (Even Raspberry Pi with 4GB has been reported to work)  
-- Basic C++ knowledge (Optional)  
+- Basic C++ knowledge (Optional)  : Actually some knowldge is required :-) [as you have to make the entore build success witn make and cmake]
 - Basic Linux skills (Installing packages, running commands)
 
 ---
