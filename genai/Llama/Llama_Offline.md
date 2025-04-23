@@ -171,6 +171,43 @@ You’re 98% done! For the final steps, refer to the video tutorial again.
 Since I have been crashed with my 2GB RAM in a celeron Laptop to run the model, spinning up a new system with Limux that has higher RAM. 
 Untill then Best Of Luck!
 
+**World is not enough!**
+Here I go again with a new PC with Ryzen7 Series + 34 GB of RAM + 20 GB Linux Swap Mem
+And I make progress. Its observed that - all these requires some 70GB local DISK space additional to OS cosumed area.
+So a 150 GB Linux OS disk will be fine for this or build all your output to an external source.
+
+
+```bash
+# install Python dependencies
+python3 -m pip install -r requirements.txt
+
+# convert the model to ggml FP16 format
+python3 convert_hf_to_gguf.py ./models/Llama-2-7b/
+
+# quantize the model to 4-bits (using Q4_K_M method)
+./bin/llama-quantize ./models/Llama-2-7b/out/Llama-2-7B-F16.gguf ./models/Llama-2-7b/out/ggml-model-Q4_K_M.gguf Q4_K_M
+
+```
+By now you ge2 files: (under your model folder)
+
+    Llama-2-7B-F16.gguf
+    ggml-model-Q4_K_M.gguf
+    
+```bash
+# Run the quantized model:
+# start inference on a gguf model
+
+./bin/llama-cli -m ./models/Llama-2-7b/out/ggml-model-Q4_K_M.gguf -cnv -p "You are a helpful assistant"
+```
+========
+I ended up with an error saying :
+
+"llama_model_load: error loading model: missing tensor 'token_embd.weight'" - so will keep investigatijg from here again....
+
+![errorAtEnd](https://github.com/user-attachments/assets/03dc370e-5efe-48d7-8776-885b69a43239)
+
+
+
 
 ---
 
