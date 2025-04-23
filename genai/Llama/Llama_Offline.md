@@ -27,7 +27,7 @@ we will target this Llama 2 model, however if you have highend pc, you can try a
 - A Linux PC/Laptop  
 - Minimum 4GB RAM (Reported to work)  
 - A decent CPU (Even Raspberry Pi with 4GB has been reported to work)  
-- Basic C++ knowledge (Optional)  : Actually some knowldge is required :-) [as you have to make the entore build success witn make and cmake]
+- Sound C++ knowledge (Optional)  : Atleast how to build project
 - Basic Linux skills (Installing packages, running commands)
 
 ---
@@ -218,4 +218,5 @@ I ended up with an error saying :
 - [LLaMA.cpp README](https://github.com/ggml-org/llama.cpp/blob/master/README.md)
 
 - [ChatGpt style LLM on Web](https://www.meta.ai)
-- 
+- [Quantization: Llama Quantization:](https://www.llama.com/docs/how-to-guides/quantization/)
+  
