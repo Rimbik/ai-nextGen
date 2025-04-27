@@ -7,7 +7,7 @@ The model we downloaded 'Llama-3.2-3B-Instruct-Q4_K_M.gguf' to be used offline
 PreRequisites:
   1. Open LMStudio
   2. Run the server
-  3. Test in browset with Get 'http://127.0.0.1:1234/v1/models'
+  3. Test in browser with Get 'http://127.0.0.1:1234/v1/models' to check if it is responding
   4. Try code in python
 
   --
