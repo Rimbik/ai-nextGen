@@ -5,7 +5,7 @@ A very basic first hand python code that inetgrates your local llama model to py
 
 The model we downloaded 'Llama-3.2-3B-Instruct-Q4_K_M.gguf' to be used offline
 
-PreRequisites:
+PreRequisites: 
   0. Env: Windows PC
   1. Open LMStudio
   2. Run the server
