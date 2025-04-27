@@ -1,4 +1,4 @@
-### Integrate local llama3 that is hosted in LMStudio
+### Integrate local llama3 that is hosted in LMStudio - locally
 ---
 A very basic first hand python code that inetgrates your local llama model to python code to use as per your requirement.
 
