@@ -1,6 +1,7 @@
 ### Integrate local llama3 that is hosted in LMStudio
 ---
 A very basic first hand python code that inetgrates your local llama model to python code to use as per your requirement.
+
 The model we downloaded 'Llama-3.2-3B-Instruct-Q4_K_M.gguf' to be used offline
 
 PreRequisites:
