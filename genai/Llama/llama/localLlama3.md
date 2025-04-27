@@ -1,5 +1,14 @@
-### Integrate local llama3 that is hosted in LMStudio?
+### Integrate local llama3 that is hosted in LMStudio
 ---
+
+PreRequisites:
+  1. Open LMStudio
+  2. Run the server
+  3. Test in browset with Get 'http://127.0.0.1:1234/v1/models'
+  4. Try code in python
+
+  --
+
 ```python
 # pip install OpenAI
 # ref: https://lmstudio.ai/docs/app/api/endpoints/openai
@@ -18,4 +27,8 @@ completion = client.chat.completions.create(
   temperature=0.7,
 )
 ```
+
+- Answer:
+  "ChatCompletionMessage(content="Listen up, don't be late,\nWaking up early is great.\nGet some rest, then rise with the sun's rays,\nAnd start your day in a happy way.", refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None)"
+
 
