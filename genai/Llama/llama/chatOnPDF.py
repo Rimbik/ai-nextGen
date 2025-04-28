@@ -65,11 +65,9 @@ embeddings = HuggingFaceEmbeddings(
     model_kwargs = {"device": "cpu"}
 )
 
-# Assuming you already created your vectorstore
 # After creating your vectorstore from documents
 vectorstore = FAISS.from_documents(chunks, embeddings)
-vectorstore.save_local("faiss_index")
-
+vectorstore.save_local("faiss_index") # save locally
 
 # Later, load and query
 # pip install faiss-cpu
@@ -81,9 +79,9 @@ vectorstore = FAISS.load_local(
     allow_dangerous_deserialization=True
 )
 
-## Step 4: Search
 
-# results = vectorstore.similarity_search_with_score("Apurva", k=5)
+## Step 4: Search -----------------QUERY SECTION-------------------
+# results = vectorstore.similarity_search_with_score("Am I found in the pdf", k=5)
 # for doc, score in results:
 #     print(doc.page_content)
 #     print(score)
@@ -91,7 +89,6 @@ vectorstore = FAISS.load_local(
 
 #------------------------------
 # this below can be config for continious chat as cjat-bot
-
 query = "Initial prompt matters"
 
 results = vectorstore.similarity_search_with_score(query, k=4)
