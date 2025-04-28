@@ -2,7 +2,7 @@
 # This is a potential chatbot that uses :
 #	- A: Hugging face llama model to: operate on any given pdf (capable of full search)
 #	- B: Embedding and Vectorization techniques
-#	- C: Code can be converted in loop to make a chat-bot
+#	- C: Code can be converted in loop to make a chat-bot (gradio to be embedded)
 #	- D: At the moment, not a local .gguf model as they are full LLM - cant be used for embedding
 #	- E: Refer any pdf in line: 24 to scan
 
