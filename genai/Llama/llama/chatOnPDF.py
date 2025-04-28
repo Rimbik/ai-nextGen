@@ -90,7 +90,7 @@ vectorstore = FAISS.load_local(
 
 #------------------------------
 # this below can be config for continious chat as cjat-bot
-query = "Initial prompt matters"
+query = "Initial prompt matters"  # this is a sentence from the PDF
 
 results = vectorstore.similarity_search_with_score(query, k=4)
 
