@@ -171,6 +171,8 @@ You’re 98% done! For the final steps, refer to the video tutorial again.
 Since I have been crashed with my 2GB RAM in a celeron Laptop to run the model, spinning up a new system with Limux that has higher RAM. 
 Untill then Best Of Luck!
 
+You can Jump to Section (Area-51)
+
 **World is not enough!**
 Here I go again with a new PC with Ryzen7 Series + 34 GB of RAM + 20 GB Linux Swap Mem
 And I make progress. Its observed that - all these requires some 70GB local DISK space additional to OS cosumed area.
@@ -207,9 +209,18 @@ I ended up with an error saying :
 ![errorAtEnd](https://github.com/user-attachments/assets/03dc370e-5efe-48d7-8776-885b69a43239)
 
 
+---------
+**(Area-51)**
+Download the model name "" from LMStudio or from any reliable source then run in bash
+  ```bash
+  bin/llama-cli -m ./models/Llama-3.2-3B-Instruct-Q4_K_M/Llama-3.2-3B-Instruct-Q4_K_M.gguf -cnv -p "You are a helpful assistant"
+  ```
+  Result:
+  ![image](https://github.com/user-attachments/assets/fa1293a2-e7a8-4b5e-895a-4bd01917ee0a)
 
 
----
+
+
 
 ## ✅ Additional Resources
 
