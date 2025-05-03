@@ -211,7 +211,11 @@ I ended up with an error saying :
 
 ---------
 **(Area-51)**
-Download the model name "" from LMStudio or from any reliable source then run in bash
+
+Download the model name "Llama-3.2-3B-Instruct-Q4_K_M.gguf" from LMStudio or from any reliable source
+Place the model in llama.cpp model folder
+and run in bash
+
   ```bash
   bin/llama-cli -m ./models/Llama-3.2-3B-Instruct-Q4_K_M/Llama-3.2-3B-Instruct-Q4_K_M.gguf -cnv -p "You are a helpful assistant"
   ```
