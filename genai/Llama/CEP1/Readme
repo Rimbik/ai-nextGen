@@ -1,0 +1,45 @@
+   Complete CEP Source Code: https://github.com/Rimbik/assessments/blob/main/gen-ai/CEP1/code/chatBotWithGradio_lin.py
+   Ref: https://github.com/Rimbik/ai-nextGen/blob/main/genai/Llama/Llama_Offline.md    
+
+🔍 Model Overview :
+
+    Type: Llama-3-8B
+    Name: EdgerunnersArchive-Llama-3-8B-Instruct-ortho-baukit-toxic-v2-Q2_K.gguf    
+    Base Model: Meta Llama 3 8B Instruct
+    Base requirement: 2-bit Q2_K: 3.03 GB (3031.86 MB) to run
+    Usage: version 3, with 8 billion parameters.
+    Other version: Available with Q3_K_S, Q3_K_L, Q5_K_S ranging 2 to 8 bit models
+
+    Fine-Tuning: Enhanced by EdgerunnersArchive with "ortho-baukit-toxic-v2" adjustments
+
+    Quantization: Q2_K (K-quants), offering a balance between model size and performance
+
+    File Size: Approximately 3.18 GB afrer download
+
+    License: CC BY-NC 4.0 (non-commercial use)
+    Hugging Face+3Toolify+3Hugging Face+3
+    Hugging Face+1Toolify+1
+    Hugging Face+3Hugging Face+3Hugging Face+3
+
+⚙️ Technical Details
+
+    Quantization Type: Q2_K is a lower-bit quantization, resulting in a smaller model size but potentially reduced performance compared to higher-bit quantizations.
+    Performance: While Q2_K offers a compact model size, it may exhibit lower performance and quality compared to higher-bit quantizations like Q4_K or Q5_K.
+    Usage: Suitable for environments with limited resources where model size is a critical factor.
+    In this case, I have used this as experimental purpose to run on a low powered Linux celeron machine with 2GB RAM to test the model Edge capabilities.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+First the llama.cpp has been downloaded form github to built in the linux machine, then the same model with Q4_k has been used to code the script on a High powred Ryzen i7 Mini PC with 32 GB RAM
+Next, to experiment its Q2_k model/ quantized version, a different linux machine has been used with: Linux Mint Celeron Processor and 2 GB RAM to test its edge capability and the model worked.
+Todo: Testing on a Rasberi Pi (not done yet)
+    
+    Since building and compiling the app in edge devices is very time consuming, for edge devices the binary of llama.cpp has be used instead of full fledged compilation
+    but llama-cpp-python has been fully compiled in the edge devices as seens binary not available.
+    Finally: The Q2_k model ran under its 2GB ram + 2Gb swap as tested but search taking a significant long time.
+
+gradio hosting: the huggingface @ this moment not configured to run the offline setup - hence live url not possible at this hr.
+
+Other ref used: ollama, LMStudio along with main llama.cpp linux reference
+inf by: https://github.com/Rimbik/ai-nextGen/blob/main/genai/Llama/Llama_Offline.md
+=================================================================================================================    
