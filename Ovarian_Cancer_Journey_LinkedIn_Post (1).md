@@ -16,7 +16,7 @@ What followed was a frustrating and disheartening journey through the healthcare
 - **My family doctor** (10+ years treating her) dismissed the cyst as "normal in women".
 - **A local chemist** said the same — “these are common and usually resolve.”
 - She was given **digestive and bowel medications**.
-- A **general physician** advised us to consult a gastroenterologist — again, nothing definitive.
+- A **general physician, MD** advised us to consult a gastroenterologist — again, nothing definitive.
 - A **surgeon finally flagged the cyst** and suggested visiting a gynecologist.
 - The gynecologist **initially refused to engage**, saying it’s not her domain. Only after persistent questioning did she reluctantly order a **CT Scan and CA-125 test**.
 
