@@ -42,7 +42,7 @@ We are now at **Tata Memorial Hospital, Mumbai**, undergoing treatment under a w
 It’s still uncertain how my mother’s body will respond to chemotherapy at this age, but we are doing everything possible.
 
 ## 🗣️ Final Thoughts
-I live in a well-connected city. I have access to excellent hospitals and specialists. I have health insurance. And yet — we lost 90 critical days because of **systemic inertia, assumptions, and rushed consultations.**
+in my native, I live in a well-connected city. I have access to excellent hospitals and specialists. I have health insurance. And yet — we lost 90 critical days because of **systemic inertia, assumptions, and rushed consultations.**
 
 If this can happen to me, it can happen to anyone.
 
