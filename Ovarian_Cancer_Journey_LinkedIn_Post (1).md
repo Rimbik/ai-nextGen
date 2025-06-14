@@ -43,6 +43,7 @@ It’s still uncertain how my mother’s body will respond to chemotherapy at th
 
 ## 🗣️ Final Thoughts
 in my native, I live in a well-connected city. I have access to excellent hospitals and specialists. I have health insurance. And yet — we lost 90 critical days because of **systemic inertia, assumptions, and rushed consultations.**
+Dr are busy seeing 50,80 patients a day and have no time to spend 15 min per patient, they are doing 8+ OT a day may be. No time to listen you.
 
 If this can happen to me, it can happen to anyone.
 
