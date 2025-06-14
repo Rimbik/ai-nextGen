@@ -47,7 +47,7 @@ Dr are busy seeing 50,80 patients a day and have no time to spend 15 min per pat
 
 If this can happen to me, it can happen to anyone.
 
-An overian cyst in women is normal, it can happen from 19 to 70+ age in women but in no circumstances you should leave it untreated, consult dr asap and do ca-125 blood test fast.
+An overian cyst in women is normal, it can happen from 19 to 70+ age in women but in no circumstances you should leave it untreated, consult dr asap and do ca-125 blood test fast. If Dr. days normal at first view, go for self test CA-125, then if needed CT Scan
 
 Please:
 - Be aware.
