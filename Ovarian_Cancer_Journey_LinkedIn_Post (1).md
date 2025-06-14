@@ -23,8 +23,8 @@ What followed was a frustrating and disheartening journey through the healthcare
 By the time results came back, **90 days had passed** since the first USG.  
 Diagnosis: **Ovarian Cancer, likely Stage 3**, already spread to both ovaries, the **sigmoid colon**, and possibly beyond.  
 CA-125 levels were over 400.
-CT SAYS: retroperitomial
-Biopsy says: adenocarcinoma
+:CT SAYS: retroperitomial
+:Biopsy says: adenocarcinoma
 
 ## 🧠 Key Reflection
 If **just one doctor** had suggested a **CA-125 blood test** early (₹400–₹500), or taken the USG cyst seriously, we might have caught this 90 days sooner — before it had spread.  
