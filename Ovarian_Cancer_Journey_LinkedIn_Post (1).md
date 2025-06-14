@@ -32,7 +32,7 @@ I wonder: What if I hadn’t done the USG on my own?
 
 ## 💡 Lessons I Learned (The Hard Way)
 1. **Be proactive with diagnostics** – Don’t wait for referrals. Trust your instincts.
-2. **A ₹500 CA-125 test** could save lives – ask for it if you see any ovarian cysts or unexplained abdominal symptoms.
+2. **A ₹500 CA-125 test** could save lives – self go for it if you see any ovarian cysts or unexplained abdominal symptoms.
 3. **Don’t settle for a single opinion.** Healthcare is not infallible. Seek multiple perspectives.
 4. **Persistent bowel issues in elderly women deserve deep investigation** – not assumptions.
 5. **CT Scans and USGs can be done without a doctor’s prescription.** If needed, take that step yourself.
