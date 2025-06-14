@@ -55,6 +55,8 @@ Please:
 - Ask questions.
 - Don’t ignore your gut feeling.
 
+- in this journey i also got some good Drs who suggested me and bcz of them i was able to take my mother to Tata Mumbai.
+
 Let’s build a culture where **listening to the patient** becomes as important as treating the patient.
 
 ---
