@@ -57,3 +57,9 @@ Let’s build a culture where **listening to the patient** becomes as important 
 ---
 
 If anyone needs guidance on ovarian cancer symptoms, diagnosis pathways, or just wants to talk — feel free to DM me. If my experience can help, I’m here to share.
+
+i can share, how to get treated in Mumbai Tata. it has 2 locations, 1 at Parel , main Mumbai, other is in Navi Mumbai, Kharghar known as ACTREC.
+Both are same as Tata Cancer treatment center sharing same Dr and facilities.
+
+one need room, accomodation guidance, ask me. as am experiencing.....
+Navi Mumbai Tata is 20per less crowded than Parel Tata.
